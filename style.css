@@ -1,0 +1,36 @@
+body {
+    height: 95vh;
+}
+
+header {
+    display: flex;
+}
+
+header div {
+    display: flex;
+    box-sizing: border-box;
+    width: 200px;
+    border-right: 1px solid;
+    padding-right: 1px;
+    justify-content: flex-end;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main div {
+    display: flex;
+    background: linear-gradient(red, yellow, blue, orange);
+    color: white;
+    margin: 0px;
+    flex-basis: 200px;
+    height: 400px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+main div:nth-child(3) {
+    flex-grow: 1;
+}
